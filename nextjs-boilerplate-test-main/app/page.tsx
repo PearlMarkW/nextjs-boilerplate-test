@@ -1,9 +1,12 @@
 import Image from "next/image";
+// import ThemeSwitcher from 'nextjs-boilerplate-test-main/app/ThemeSwitcher.js';
+import ThemeSwitcher from './ThemeSwitcher';
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <ThemeSwitcher />
         <Image
           className="dark:invert"
           src="https://nextjs.org/icons/next.svg"
@@ -20,7 +23,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and see your changes instantly. Unless you don't want to see them.</li>
+          <li>Save and see your changes instantly. Unless you don't want to see</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">

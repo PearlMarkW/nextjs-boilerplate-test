@@ -1,0 +1,56 @@
+.header {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* Ensures logo on left, nav links on right */
+    align-items: center;
+    width: 100%;  /* Full width of the header */
+    max-width: 1200px; /* Optional: set max width for content */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns the navigation to the right */
+    align-items: center;
+    gap: 2rem; /* Space between navigation links */
+  }
+  
+  .nav a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .nav a:hover {
+    color: #0070f3;
+  }
+  
+  .linkedinIcon {
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .linkedinIcon:hover {
+    transform: scale(1.1);
+  }
+  
