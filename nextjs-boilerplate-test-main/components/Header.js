@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '/styles/header.css';
+import styles from '/styles/header.module.css';
 
 const Header = () => {
     return (
@@ -19,9 +19,9 @@ const Header = () => {
             <Link href="/investing" passHref>Investing</Link>
             <Link href="/consulting" passHref>Consulting</Link>
             <Link href="/careers" passHref>Careers</Link>
-            <Link href="/contact" passHref>Contact us</Link>
+            <Link href="/contact-us" passHref>Contact us</Link>
             {/* LinkedIn icon */}
-            <Link href="https://www.linkedin.com" passHref>
+            <Link href="https://www.linkedin.com/company/pearl-io" passHref>
               <img src="/images/linkedin.png" alt="LinkedIn" className={styles.linkedinIcon} width={20} height={20} />
             </Link>
           </nav>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 // import ThemeSwitcher from 'nextjs-boilerplate-test-main/app/ThemeSwitcher.js';
-import ThemeSwitcher from './ThemeSwitcher';
+import ThemeSwitcher from '../app/ThemeSwitcher';
 
 export default function Home() {
   return (
