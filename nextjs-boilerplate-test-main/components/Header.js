@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '../app/header.css';
+import styles from '/styles/header.css';
 
 const Header = () => {
     return (
@@ -14,7 +14,7 @@ const Header = () => {
           </div>
   
           {/* Navigation Links on the right */}
-          <nav className={styles.nav}>
+          <nav className={styles.nav}> 
             <Link href="/" passHref>Home</Link>
             <Link href="/investing" passHref>Investing</Link>
             <Link href="/consulting" passHref>Consulting</Link>
