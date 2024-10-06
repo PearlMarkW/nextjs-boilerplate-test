@@ -7,7 +7,7 @@ export default function Careers() {
             <section class="flex flex-col lg:flex-row items-center justify-between p-8 h-128">
                 <div class="lg:w-full p-6">
                     <h2 class="text-3xl mb-6">Careers</h2>
-                    <p class="mt-6 text-xl">We’re looking for independent, ambitious, collaborative, creative, hands-on, and solution oriented individuals to join our team. We specialize in supporting US and international professionals as they balance superior engagement with clients and maintaining a personal life. Team members currently originate from the US, Canada, Mexico, and Europe.</p>
+                    <p class="mt-6 text-xl">We&#39;re looking for independent, ambitious, collaborative, creative, hands-on, and solution oriented individuals to join our team. We specialize in supporting US and international professionals as they balance superior engagement with clients and maintaining a personal life. Team members currently originate from the US, Canada, Mexico, and Europe.</p>
                     <p class="mt-1 text-xl">Contact us to learn more about how we can work together to tackle unique client challenges.</p>
                 </div>
             </section>
